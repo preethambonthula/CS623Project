@@ -27,7 +27,7 @@ Youtube link to view: [https://youtu.be/SMNOsRoFBWc](https://youtu.be/SMNOsRoFBW
   * getStockDataFromUser - To get stock data from user
   * addProduct - Adds product to Product table
   * addStock - Adds stock to Stock table
-  * doTransaction - This method actually does the transaction. Sets autocommit to false before starting transations, commits at the end after transaction is successful and sets  the auto commit to true at the end. In case of failure, the control goes to catch block in try catch and executes rollback.
+  * doTransaction - This method actually does the transaction. Sets autocommit to false before starting transactions, commits at the end after transaction is successful and sets  the auto commit to true at the end. In case of failure, the control goes to catch block in try catch and executes rollback.
 * DB Variables:
   * DB_URL, USER for username, PASS for password.
   
